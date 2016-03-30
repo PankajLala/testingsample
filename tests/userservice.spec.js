@@ -32,13 +32,10 @@ describe('testing backend call', function() {
   it('should get the user information', function() {
 
     var userInfomation = {'userId': 1, 'userName': 'sample'}
-
     //assign
     httpBackend.expectGET('./data/user.json').respond(userInfomation);
-
     //act
     var returnedPromise = userservice.getUser();
-
     var result;
     returnedPromise.then(function(response) {
       result = response;
