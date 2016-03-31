@@ -12,5 +12,5 @@ module.factory('localStorageService', function() {
       localStorage.removeItem(key);
     }
 
-  }
+  };
 });

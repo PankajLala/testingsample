@@ -3,14 +3,10 @@
 <head>
     <!-- <base href="/"> -->
     <script src="node_modules/angular/angular.js"></script>
-    <script src="app/app.js"></script>
-    <script src="app/userCtrl.js"></script>
-    <script src="app/userservice.js"></script>
-    <script src="app/localStorageService.js"></script>
+    <script src="dist/all.min.js"></script>
 </head>
 <body ng-app="MyApp">
   <div ng-controller="userCtrl as uc">
-
     <input type="text" ng-model="uc.userId"> </br>
     <input type="text" ng-model="uc.userName"></br>
     <button ng-click="uc.showUser()">Get User Information</button>

@@ -1,0 +1,4 @@
+Why we dont need any module loader with angular
+
+https://medium.com/@dickeyxxx/best-practices-for-building-angular-js-apps-266c1a4a6917#.5td336e52
+http://www.dwmkerr.com/the-best-module-system-for-angularjs-applications/
